@@ -82,25 +82,13 @@ function FeaturedProject() {
 
     useEffect(()=> {
         gsap.to("#projectArea",{
-            // yes, we can add it to an entire timeline!
             scrollTrigger: {
               trigger: "#projectArea",
-              pin: ".heading", // pin the trigger element while active
-              // start: "top top", // when the top of the trigger hits the top of the viewport
-              // end: "+=500",  end after scrolling 500px beyond the start
-              scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+              pin: ".heading",
+              scrub: 1, 
               
             },
           });
-          
-          // add animations and labels to the timeline
-        //   tl.addLabel("start")
-        //     .from(".box p", { scale: 0.3, rotation: 45, autoAlpha: 0 })
-        //     .addLabel("color")
-        //     .from(".box", { backgroundColor: "#28a92b" })
-        //     .addLabel("spin")
-        //     .to(".box", { rotation: 360 })
-        //     .addLabel("end");
     },[])
     return (
         <div className="container mx-auto py-28 flex gap-8">

@@ -1,6 +1,7 @@
+import MainTag from "@/components/MainTag";
 import FeaturedProject from "@/components/home/FeaturedProject";
 import Introduce from "@/components/home/Introduce";
-import MainTag from "@/components/MainTag";
+import About from "../components/home/About";
 // import BgBorder from "@/components/bgBorder";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <MainTag>
         <Introduce />
         <FeaturedProject />
+        <About />
       </MainTag>
     </>
   );
