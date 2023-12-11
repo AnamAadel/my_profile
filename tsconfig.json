@@ -33,7 +33,7 @@
     "components/Addr",
     "components/BgBorder.tsx",
     "components/FollowMe.tsx",
-    "components/Introduce.tsx",
+    "components/home/Introduce.tsx",
     "components/Service.tsx",
     "components/Projects.jsx",
     "components/MainTag.tsx",

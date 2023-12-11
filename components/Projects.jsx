@@ -138,10 +138,10 @@ function Projects() {
           setShowPageTitle("HTML Page");
           btn.forEach((item) => {
             item.style.transform = `scale(1)`;
-            item.style.borderBottom = `0px solid #4bffa5`;
+            item.style.borderBottom = `0px solid #FFD369`;
           });
           htmlBtn.style.transform = `scale(1.2)`;
-          htmlBtn.style.borderBottom = `8px solid #4bffa5`;
+          htmlBtn.style.borderBottom = `8px solid #FFD369`;
         } else if (
           scrolling >= react_scroll_point + 545 &&
           scrolling < next_scroll_point + 615
@@ -149,11 +149,11 @@ function Projects() {
           setShowPageTitle("React Js");
           btn.forEach((item) => {
             item.style.transform = `scale(1)`;
-            item.style.borderBottom = `0px solid #4bffa5`;
+            item.style.borderBottom = `0px solid #FFD369`;
           });
 
           reactBtn.style.transform = `scale(1.2)`;
-          reactBtn.style.borderBottom = `8px solid #4bffa5`;
+          reactBtn.style.borderBottom = `8px solid #FFD369`;
         } else if (
           scrolling >= next_scroll_point + 615 &&
           scrolling < jsMiniProject_scroll_point + 660
@@ -161,10 +161,10 @@ function Projects() {
           setShowPageTitle("Next Js");
           btn.forEach((item) => {
             item.style.transform = `scale(1)`;
-            item.style.borderBottom = `0px solid #4bffa5`;
+            item.style.borderBottom = `0px solid #FFD369`;
           });
           nextBtn.style.transform = `scale(1.2)`;
-          nextBtn.style.borderBottom = `8px solid #4bffa5`;
+          nextBtn.style.borderBottom = `8px solid #FFD369`;
         } else if (
           scrolling >= jsMiniProject_scroll_point + 665 &&
           scrolling < gsapProject_scroll_point + 1220
@@ -172,18 +172,18 @@ function Projects() {
           setShowPageTitle("Js Mini Project");
           btn.forEach((item) => {
             item.style.transform = `scale(1)`;
-            item.style.borderBottom = `0px solid #4bffa5`;
+            item.style.borderBottom = `0px solid #FFD369`;
           });
           miniProjectBtn.style.transform = `scale(1.2)`;
-          miniProjectBtn.style.borderBottom = `8px solid #4bffa5`;
+          miniProjectBtn.style.borderBottom = `8px solid #FFD369`;
         } else if (scrolling >= gsapProject_scroll_point + 1220) {
           setShowPageTitle("Gsap Project");
           btn.forEach((item) => {
             item.style.transform = `scale(1)`;
-            item.style.borderBottom = `0px solid #4bffa5`;
+            item.style.borderBottom = `0px solid #FFD369`;
           });
           gsapProjectBtn.style.transform = `scale(1.2)`;
-          gsapProjectBtn.style.borderBottom = `8px solid #4bffa5`;
+          gsapProjectBtn.style.borderBottom = `8px solid #FFD369`;
         }
 
         // set show arrow logic
@@ -254,18 +254,18 @@ function Projects() {
           onEnter: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             htmlBtn.style.transform = `scale(1.2)`;
-            htmlBtn.style.borderBottom = `8px solid #4bffa5`;
+            htmlBtn.style.borderBottom = `8px solid #FFD369`;
           },
           onEnterBack: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             htmlBtn.style.transform = `scale(1.2)`;
-            htmlBtn.style.borderBottom = `8px solid #4bffa5`;
+            htmlBtn.style.borderBottom = `8px solid #FFD369`;
           },
         },
       });
@@ -277,18 +277,18 @@ function Projects() {
           onEnter: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             reactBtn.style.transform = `scale(1.2)`;
-            reactBtn.style.borderBottom = `8px solid #4bffa5`;
+            reactBtn.style.borderBottom = `8px solid #FFD369`;
           },
           onEnterBack: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             reactBtn.style.transform = `scale(1.2)`;
-            reactBtn.style.borderBottom = `8px solid #4bffa5`;
+            reactBtn.style.borderBottom = `8px solid #FFD369`;
           },
         },
       });
@@ -300,18 +300,18 @@ function Projects() {
           onEnter: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             nextBtn.style.transform = `scale(1.2)`;
-            nextBtn.style.borderBottom = `8px solid #4bffa5`;
+            nextBtn.style.borderBottom = `8px solid #FFD369`;
           },
           onEnterBack: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             nextBtn.style.transform = `scale(1.2)`;
-            nextBtn.style.borderBottom = `8px solid #4bffa5`;
+            nextBtn.style.borderBottom = `8px solid #FFD369`;
           },
         },
       });
@@ -323,18 +323,18 @@ function Projects() {
           onEnter: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             miniProjectBtn.style.transform = `scale(1.2)`;
-            miniProjectBtn.style.borderBottom = `8px solid #4bffa5`;
+            miniProjectBtn.style.borderBottom = `8px solid #FFD369`;
           },
           onEnterBack: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             miniProjectBtn.style.transform = `scale(1.2)`;
-            miniProjectBtn.style.borderBottom = `8px solid #4bffa5`;
+            miniProjectBtn.style.borderBottom = `8px solid #FFD369`;
           },
         },
       });
@@ -346,18 +346,18 @@ function Projects() {
           onEnter: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             gsapProjectBtn.style.transform = `scale(1.2)`;
-            gsapProjectBtn.style.borderBottom = `8px solid #4bffa5`;
+            gsapProjectBtn.style.borderBottom = `8px solid #FFD369`;
           },
           onEnterBack: () => {
             btn.forEach((item) => {
               item.style.transform = `scale(1)`;
-              item.style.borderBottom = `0px solid #4bffa5`;
+              item.style.borderBottom = `0px solid #FFD369`;
             });
             gsapProjectBtn.style.transform = `scale(1.2)`;
-            gsapProjectBtn.style.borderBottom = `8px solid #4bffa5`;
+            gsapProjectBtn.style.borderBottom = `8px solid #FFD369`;
           },
         },
       });

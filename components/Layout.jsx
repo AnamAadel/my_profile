@@ -1,3 +1,4 @@
+import MenuModal from "./MenuModal";
 import Navber from "./Navber";
 
 function Layout({ children }) {
@@ -6,6 +7,7 @@ function Layout({ children }) {
     <>
       <Navber />
       {children}
+      <MenuModal />
     </>
   );
 }

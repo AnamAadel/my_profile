@@ -19,7 +19,7 @@ function Objective() {
           <div>
             <p className="text-white max-w-[600px] font-medium">
               {hi}
-              <span className="text-[#4bffa5] text-2xl text-center md:text-left">
+              <span className="text-[#FFD369] text-2xl text-center md:text-left">
                 {name}
               </span>
               {text}

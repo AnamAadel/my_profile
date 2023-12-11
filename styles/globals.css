@@ -6,16 +6,19 @@
   .clip_path {
     clip-path: polygon(29% 0, 100% 27%, 72% 100%, 0 100%);
   }
+
   .writting_mode_rl {
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: vertical-rl;
   }
+
   .writting_mode_tb {
     writing-mode: horizontal-tb;
     -webkit-writing-mode: horizontal-tb;
     -ms-writing-mode: horizontal-tb;
   }
+
   .active {
     opacity: 1;
     visibility: visible;
@@ -25,6 +28,7 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
   }
+
   .unactive {
     opacity: 0;
     visibility: hidden;
@@ -34,6 +38,7 @@
     -ms-transform: translateX(-40px);
     -o-transform: translateX(-40px);
   }
+
   .boxImage {
     /* width: 450px; */
     flex-shrink: 0;
@@ -44,6 +49,7 @@
     margin-bottom: 2.5rem;
     padding: 1.5rem 1rem;
   }
+
   .proj_box .proj_title {
     font-size: 1.5rem;
     font-weight: 900;
@@ -52,6 +58,7 @@
     color: #fff;
     margin-bottom: 1.8rem;
   }
+
   .proj_box .demo {
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -63,6 +70,7 @@
     cursor: -moz-pointer;
     cursor: -webkit-pointer; */
   }
+
   .proj_box .demo .img_box {
     width: 100%;
     height: 48vh;
@@ -70,9 +78,11 @@
     border-right-width: 0px;
     background: #fff;
   }
+
   .proj_box .demo .img_box::-webkit-scrollbar {
     width: 6px;
   }
+
   .proj_box .demo .img_box::-webkit-scrollbar-track {
     background: #131314;
     border-radius: 10px;
@@ -81,19 +91,21 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
   }
+
   .proj_box .demo .img_box::-webkit-scrollbar-thumb {
-    background: #4bffa5;
+    background: #FFD369;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
   }
+
   .proj_box .demo .img_box img {
     width: 100%;
   }
+
   .image_white {
-    filter: invert(100%) sepia(100%) saturate(8%) hue-rotate(182deg)
-      brightness(104%) contrast(104%);
+    filter: invert(100%) sepia(100%) saturate(8%) hue-rotate(182deg) brightness(104%) contrast(104%);
   }
 }

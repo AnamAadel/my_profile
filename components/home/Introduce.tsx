@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 import { TypeAnimation } from "react-type-animation";
-import { data } from "../lib/data";
-import Address from "./Address";
-import FollowMe from "./FollowMe";
+import { data } from "../../lib/data";
+import Address from "../Address";
+import FollowMe from "../FollowMe";
 
 function Introduce() {
   // const [introData, setIntroData] = useState();
@@ -11,7 +11,7 @@ function Introduce() {
   const { introduce } = data;
 
   return (
-    <section className="container m-auto min-h-screen text-white ">
+    <section className="container relative m-auto min-h-screen text-white ">
       <div className="clip_path max-w-[600px] h-[70vh]">
         <Image
           className="w-full h-full object-cover"
@@ -24,7 +24,7 @@ function Introduce() {
       </div>
       <p className="text-white ml-auto mt-10 lg:-mt-20 max-w-[500px] font-medium px-4">
         {introduce.hi}
-        <span className="text-[#4bffa5] text-2xl"> {introduce.author}</span>
+        <span className="text-[#FFD369] text-2xl"> {introduce.author}</span>
         <br /> {introduce.text}
       </p>
       <div className="flex flex-col-reverse sm:flex-row gap-10 mt-8 items-center px-4">
