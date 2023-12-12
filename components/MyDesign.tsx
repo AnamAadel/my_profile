@@ -8,13 +8,13 @@ function MyDesign() {
           Design Skills
         </h2>
 
-        <div className="w-full px-14 py-20 bg-dark-200 border-[0.1px] border-gray-400">
+        <div className="w-full px-14 py-20 text-neutral bg-white rounded-lg border-[0.1px] border-gray-400">
           {design_skills &&
             design_skills.map((item, ind) => (
               <div key={ind} className="mt-8">
                 <h4 className="text-2xl">{item.name}</h4>
                 <progress
-                  className="progress progress-accent w-full"
+                  className="progress bg-lightGreen w-full"
                   value={item.percent}
                   max="100"
                 ></progress>

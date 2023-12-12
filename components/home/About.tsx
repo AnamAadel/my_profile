@@ -1,25 +1,23 @@
-import gsap from "gsap";
-import { useEffect } from "react";
 
 function About() {
 
-    useEffect(() => {
-        gsap.to("#projectArea", {
-            scrollTrigger: {
-                trigger: "#aboutContent",
-                pin: ".about-title",
-                scrub: 1,
+    // useEffect(() => {
+    //     gsap.to("#aboutContent", {
+    //         scrollTrigger: {
+    //             trigger: "#aboutContent",
+    //             pin: ".about-title",
+    //             scrub: 1,
 
-            },
-        });
-    }, [])
+    //         },
+    //     });
+    // }, [])
 
     return (
         <div className="container mx-auto py-28 flex gap-8" >
             <h2 className='text-5xl text-white font-bold about-title pt-36'>Behind the<br /> <span className='ml-10 text-[5rem] text-lightGreen'>  Code</span></h2>
             <div className="space-y-36 w-[75%] text-white" id="aboutContent" >
                 <div className='space-y-6'>
-                    <h3 className="font-bold text-6xl underline uppercase mb-12">Core values and Beliefs</h3>
+                    <h3 className="font-bold text-4xl underline uppercase mb-16 text-right">Core values and Beliefs</h3>
 
                     <ul className='space-y-8 text-xl'>
                         <li className="px-8 py-12 bg-dark-300 rounded">

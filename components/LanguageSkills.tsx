@@ -8,7 +8,7 @@ function LanguageSkills() {
           Language Skills
         </h2>
 
-        <div className="w-full px-6 sm:px-14 py-20 bg-dark-200 border-[0.1px] border-gray-400 grid grid-cols-1 lg:grid-cols-2 gap-x-36 gap-y-8">
+        <div className="w-full px-6 sm:px-14 py-20 text-neutral bg-white rounded-lg border-[0.1px] border-gray-400 grid grid-cols-1 lg:grid-cols-2 gap-x-36 gap-y-8">
           {/* <!-- Bangla --> */}
           {language_skills &&
             language_skills.map((item, ind) => (

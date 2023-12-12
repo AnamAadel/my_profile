@@ -109,3 +109,30 @@
     filter: invert(100%) sepia(100%) saturate(8%) hue-rotate(182deg) brightness(104%) contrast(104%);
   }
 }
+
+.react-tabs__tab-list {
+  border-bottom: none !important;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.react-tabs__tab-list .react-tabs__tab {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #131314;
+}
+
+.react-tabs__tab-list .react-tabs__tab:hover span {
+  border-bottom: 3px solid rgb(38 38 38);
+}
+
+.react-tabs__tab.react-tabs__tab--selected {
+  border: none;
+}
+
+.react-tabs__tab.react-tabs__tab--selected::after {
+  display: none;
+}

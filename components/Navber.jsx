@@ -78,7 +78,7 @@ function Navber({ children }) {
             </label>
           </div>
 
-          <ul className={`items-center gap-8 text-[1rem] font-medium flex flex-col lg:flex-row bg-white rounded-lg lg:bg-transparent absolute lg:static top-full right-0 sm:right-6 w-full sm:w-1/3 lg:w-fit py-8 lg:py-0 text-dark-300 lg:text-white transition-all duration-300  ${showMenu ? "active" : "unactive"} `} ref={menuBox}>
+          <ul className={`items-center gap-8 text-[1rem] font-medium hidden lg:flex flex-col lg:flex-row bg-white rounded-lg lg:bg-transparent absolute lg:static top-full right-0 sm:right-6 w-full sm:w-1/3 lg:w-fit py-8 lg:py-0 text-dark-300 lg:text-white transition-all duration-300  ${showMenu ? "active" : "unactive"} `} ref={menuBox}>
             <li
               className="relative h-[1.7rem] overflow-hidden group cursor-pointer"
             >
@@ -96,8 +96,20 @@ function Navber({ children }) {
             <li className="relative h-[1.7rem] overflow-hidden group">
               <Link
 
+                href="/project"
+                className="after:content-['Work'] after:block after:text-[#FFD369] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Projects</Link>
+            </li>
+            <li>
+              <Link
+
                 href="/work"
-                className="after:content-['Work'] after:block after:text-[#FFD369] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Work</Link>
+                className="after:content-['Work'] after:block after:text-[#ffffff] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Work</Link>
+            </li>
+            <li>
+              <Link
+
+                href="/contact"
+                className="after:content-['Work'] after:block after:text-[#ffffff] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Contact</Link>
             </li>
           </ul>
 

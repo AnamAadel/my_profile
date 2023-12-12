@@ -14,7 +14,7 @@ function Objective() {
             alt="user image"
             width={300}
             height={300}
-            className="w-48 m-auto"
+            className="w-72 m-auto"
           />
           <div>
             <p className="text-white max-w-[600px] font-medium">

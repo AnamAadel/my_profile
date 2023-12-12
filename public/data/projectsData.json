@@ -1,0 +1,289 @@
+[
+    {
+        "link": "https://assignment-11-lyart.vercel.app/",
+        "image": "https://firebasestorage.googleapis.com/v0/b/my-e-commarce.appspot.com/o/images%2Fhost-image%2Fscreencapture-localhost-5173-2023-12-12-13_19_28.png?alt=media&token=ebee3177-961f-4ce9-a686-27b04d3fc8a5",
+        "title": "HomeSwapHub",
+        "techName": "reactJs",
+        "githubLink": "https://github.com/AnamAadel/-HomeSwapHub"
+    },
+    {
+        "link": "https://assignment-12-fawn.vercel.app/",
+        "image": "https://firebasestorage.googleapis.com/v0/b/my-e-commarce.appspot.com/o/images%2Fhost-image%2Fscreencapture-localhost-5173-2023-12-12-13_24_04.png?alt=media&token=4dd7595e-6b55-4438-85b1-04c785177e27",
+        "title": "WanderWise",
+        "techName": "reactJs",
+        "githubLink": "https://github.com/AnamAadel/WanderWise"
+    },
+    {
+        "link": "https://trade-haven.vercel.app/",
+        "image": "https://firebasestorage.googleapis.com/v0/b/my-e-commarce.appspot.com/o/images%2Fhost-image%2Fscreencapture-localhost-5173-2023-12-12-14_21_28.png?alt=media&token=5a664d0a-4151-4108-8dee-fa7fc4250f98",
+        "title": "TradeHaven",
+        "techName": "reactJs",
+        "githubLink": "https://github.com/AnamAadel/TradeHaven"
+    },
+    {
+        "link": "https://assignment-10-nu-nine.vercel.app/",
+        "image": "https://firebasestorage.googleapis.com/v0/b/my-e-commarce.appspot.com/o/images%2Fhost-image%2Fscreencapture-localhost-5173-2023-12-12-13_47_17.png?alt=media&token=05168bdc-fd3e-482d-a8a2-67434efafb60",
+        "title": "TechHaven",
+        "techName": "reactJs",
+        "githubLink": "https://github.com/AnamAadel/TechHaven"
+    },
+    {
+        "link": "https://my-ecommarce-website-wepe.vercel.app/",
+        "image": "/furniture.png",
+        "title": "Furniture shop",
+        "techName": "nextJs",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/adchi/",
+        "image": "/adachi.png",
+        "title": "Adachi",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/final-project/",
+        "image": "/portfolio2.png",
+        "title": "Portfolio",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/kidsure/",
+        "image": "/kidsure.png",
+        "title": "Kidsure",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/hunt/",
+        "image": "/hunt.png",
+        "title": "Hunt",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/resturent/",
+        "image": "/resturent1.png",
+        "title": "Resturant",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/restaurant2/",
+        "image": "/lambda.png",
+        "title": "Lambda",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/indonesian-cuisine/",
+        "image": "/indonesian.png",
+        "title": "Indonesian Cuisine",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/responsive/S_final-project/",
+        "image": "/siam.png",
+        "title": "Simple Page",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": " https://anamaadel.github.io/new_year_new_me/",
+        "image": "/new-year-new-me.png",
+        "title": "New Year New Me",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://anamaadel.github.io/flower_shop/",
+        "image": "/flower_shop.png",
+        "title": "Flower Shop",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://anamaadel.github.io/fruit_burst/",
+        "image": "/fruits.png",
+        "title": "Fruit Burst",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://anamaadel.github.io/assignment-2/",
+        "image": "/gamer.png",
+        "title": "Gammer",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://anamaadel.github.io/cit-dashboard/",
+        "image": "/cit.png",
+        "title": "CIT Dashboard",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/non-responsive/burger/",
+        "image": "/burger.png",
+        "title": "Burger Hut",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/non-responsive/myHome/",
+        "image": "/myhome.png",
+        "title": "My Home",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/non-responsive/hiking/",
+        "image": "/hike.png",
+        "title": "Hike",
+        "techName": "html_page",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/earth/index.html",
+        "image": "/earth.png",
+        "title": "Our Earth",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/image-zoom/",
+        "image": "/zoopImage.png",
+        "title": "Magnifying Image",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/colors-palet/",
+        "image": "/color-box.png",
+        "title": "Color Planet",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/5start/",
+        "image": "/5stars.png",
+        "title": "5 Star",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/dragble-slider/",
+        "image": "/scroll-nav.png",
+        "title": "Navigation Slider",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/drag-&-drop/",
+        "image": "/drag-drop.png",
+        "title": "Drag & Drop",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/gradient/",
+        "image": "/gredientbtn.png",
+        "title": "Make Button Gradients",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/gradient-genarator/",
+        "image": "/gradient-gen.png",
+        "title": "Gradient Generator",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/menu-hover-effect/",
+        "image": "/item-indicator.png",
+        "title": "Indicate Buttons",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/menu-item-dragable/",
+        "image": "/dragable-item.png",
+        "title": "Draggable Item",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/menu-item-scalable/",
+        "image": "/scalable-item.png",
+        "title": "Scalable Item",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/passing-item-through-stack/",
+        "image": "/image-change.png",
+        "title": "Passing Fruits Through Stack",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/increament-&-dicreament/",
+        "image": "/inc-dinc.png",
+        "title": "Increament & Dicreament",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/myjsProject/player/",
+        "image": "/player.png",
+        "title": "Sound Player",
+        "techName": "js_mini_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/gsap/image-gallary-using-flip/",
+        "image": "/galary.png",
+        "title": "Image Gallery",
+        "techName": "gsap_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/gsap/image-gallary-using-flip-2/",
+        "image": "/horizontal-galary.png",
+        "title": "Horizontal Image Gallery",
+        "techName": "gsap_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/gsap/image-gallary-using-flip-3/",
+        "image": "/gallary-page.png",
+        "title": "Image Gallery Page",
+        "techName": "gsap_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/gsap/scroll-image/",
+        "image": "/scrollEffect.png",
+        "title": "Scroll Effect",
+        "techName": "gsap_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/gsap/scroll-image2/",
+        "image": "/scrollEffect.png",
+        "title": "Scroll Effect 2",
+        "techName": "gsap_project",
+        "githubLink": ""
+    },
+    {
+        "link": "https://my-ecommarce-website-9ri5.vercel.app/gsap/scroll-image3/",
+        "image": "/scroll-galary.png",
+        "title": "Scroll Image Gallery",
+        "techName": "gsap_project",
+        "githubLink": ""
+    }
+]

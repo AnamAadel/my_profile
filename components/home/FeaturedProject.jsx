@@ -1,5 +1,4 @@
 "use client"
-import gsap from "gsap";
 import { useEffect, useState } from "react";
 import FeaturedCard from "./FeaturedCard";
 
@@ -7,8 +6,8 @@ import FeaturedCard from "./FeaturedCard";
 function FeaturedProject() {
 
     const [isOpenScreen, setIsOpenScreen] = useState();
-
-
+    const [featuredData , setFeaturedData] = useState()
+;
     // useEffect(() => {
 
     //     const boxImage = gsap.utils.toArray(".featuredCard");
@@ -56,14 +55,6 @@ function FeaturedProject() {
 
     //     })
 
-
-
-
-
-
-
-
-
     //     // if(isScreen){
     //     //     gsap.to(".featuredCard", {
     //     //         width: "100vw",
@@ -80,15 +71,26 @@ function FeaturedProject() {
     // }, [isOpenScreen])
 
 
-    useEffect(()=> {
-        gsap.to("#projectArea",{
-            scrollTrigger: {
-              trigger: "#projectArea",
-              pin: ".heading",
-              scrub: 1, 
+    // useEffect(()=> {
+    //     gsap.to("#projectArea",{
+    //         scrollTrigger: {
+    //           trigger: "#projectArea",
+    //           pin: ".heading",
+    //           scrub: 1, 
               
-            },
-          });
+    //         },
+    //       });
+    // },[])
+
+
+    useEffect(()=> {
+        const fetchData = async ()=> {
+            const res = await fetch("/data/featuredProjectData.json");
+            const data = await res.json()
+
+            setFeaturedData(data);
+        }
+        fetchData()
     },[])
     return (
         <div className="container mx-auto py-28 flex gap-8">
@@ -105,9 +107,10 @@ function FeaturedProject() {
 
             
             <div className="space-y-36 w-[75%]" id="projectArea">
-                <FeaturedCard isOpenScreen={isOpenScreen} setIsOpenScreen={setIsOpenScreen} id={0} />
-                <FeaturedCard isOpenScreen={isOpenScreen} setIsOpenScreen={setIsOpenScreen} id={1} />
-                <FeaturedCard isOpenScreen={isOpenScreen} setIsOpenScreen={setIsOpenScreen} id={2} />
+                {featuredData && featuredData.map((item, idx)=> (
+                <FeaturedCard isOpenScreen={isOpenScreen} setIsOpenScreen={setIsOpenScreen} item={item} id={idx} key={idx} />
+
+                ))}
 
 
             </div>

@@ -1,10 +1,9 @@
+import Skills from "@/components/resume/Skills";
 import Banner from "../components/Banner";
-import Knowledge from "../components/Knowledge";
 import LanguageSkills from "../components/LanguageSkills";
 import MainTag from "../components/MainTag";
 import MyDesign from "../components/MyDesign";
 import Objective from "../components/Objective";
-import Service from "../components/Service";
 
 function resume() {
   return (
@@ -12,10 +11,9 @@ function resume() {
       <MainTag>
         <Banner bannerTitle="Resume" />
         <Objective />
-        <Service />
+        <Skills />
         <MyDesign />
         <LanguageSkills />
-        <Knowledge />
       </MainTag>
     </>
   );
