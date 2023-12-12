@@ -31,7 +31,7 @@ function ProjectsArea() {
                     </TabList>
 
                     <TabPanel>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  w-full">
+                        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center gap-8 space-x-4 w-full">
                             {
                                 react && react.map((item, idx) => (
                                     <ProjectCard item={item} key={idx} />
@@ -40,7 +40,7 @@ function ProjectsArea() {
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  w-full">
+                        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center gap-8 space-x-4 w-full">
 
                             {
                                 next && next.map((item, idx) => (
@@ -50,7 +50,7 @@ function ProjectsArea() {
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  w-full">
+                        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center gap-8 space-x-4  w-full">
                             {
                                 html && html.map((item, idx) => (
                                     <ProjectCard item={item} key={idx} />

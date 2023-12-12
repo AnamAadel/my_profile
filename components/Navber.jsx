@@ -97,23 +97,23 @@ function Navber({ children }) {
               <Link
 
                 href="/project"
-                className="after:content-['Work'] after:block after:text-[#FFD369] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Projects</Link>
+                className="after:content-['Projects'] after:block after:text-[#FFD369] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Projects</Link>
             </li>
-            <li>
+            <li className="relative h-[1.7rem] overflow-hidden group cursor-pointer">
               <Link
 
                 href="/work"
-                className="after:content-['Work'] after:block after:text-[#ffffff] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Work</Link>
+                className="after:content-['Work'] after:block after:text-[#FFD369] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Work</Link>
             </li>
-            <li>
+            <li className="relative h-[1.7rem] overflow-hidden group cursor-pointer">
               <Link
 
                 href="/contact"
-                className="after:content-['Work'] after:block after:text-[#ffffff] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Contact</Link>
+                className="after:content-['Contact'] after:block after:text-[#FFD369] group-hover:my-[-1.7rem] block transition-all after:transition-all ease-linear duration-200">Contact</Link>
             </li>
           </ul>
 
-          <button className="text-white text-4xl" onClick={()=> setIsOpenMenu(!isOpenMenu)}><RiMenu3Fill /></button>
+          <button className="text-white text-4xl" onClick={() => setIsOpenMenu(!isOpenMenu)}><RiMenu3Fill /></button>
         </div>
       </header>
     </>

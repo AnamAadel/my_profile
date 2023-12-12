@@ -19,6 +19,8 @@ function FeaturedCard({item, isOpenScreen, setIsOpenScreen, id}) {
 
 
                         <a target='_blank' href={item.link} className="btn btn-outline btn-warning">Visit the site</a>
+
+                        <a target='_blank' href={item.githubLink} className="btn  btn-warning">Go to Github</a>
                     </div>
                 </div>
 
