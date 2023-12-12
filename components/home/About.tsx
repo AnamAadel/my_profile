@@ -13,7 +13,7 @@ function About() {
     // }, [])
 
     return (
-        <div className="container mx-auto py-28 flex gap-8" >
+        <div className="container mx-auto py-28 flex flex-col md:flex-row gap-8" >
             <h2 className='text-5xl text-white font-bold about-title pt-36'>Behind the<br /> <span className='ml-10 text-[5rem] text-lightGreen'>  Code</span></h2>
             <div className="space-y-36 w-[75%] text-white" id="aboutContent" >
                 <div className='space-y-6'>

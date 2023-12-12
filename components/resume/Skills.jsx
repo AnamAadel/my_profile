@@ -34,7 +34,7 @@ function Skills() {
         fetchData();
     }, [])
     return (
-        <div className="flex gap-6 container mx-auto py-16">
+        <div className="flex flex-col md:flex-row gap-6 container mx-auto py-16">
             <div className="text-center skill-title text-white w-[30%] px-3 pt-28">
                 <h2 className='text-3xl text-white font-bold   mb-6'>Technical <span className=' text-lightGreen'>   Abilities:</span></h2>
 

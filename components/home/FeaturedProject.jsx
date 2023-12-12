@@ -93,7 +93,7 @@ function FeaturedProject() {
         fetchData()
     },[])
     return (
-        <div className="container mx-auto py-28 flex gap-8">
+        <div className="container mx-auto py-28 flex flex-col md:flex-row gap-8">
             <h2 className='text-5xl text-white font-bold heading pt-36'>Featured <br /> <span className='ml-10 text-[5rem] text-lightGreen'>Project</span></h2>
 
 
